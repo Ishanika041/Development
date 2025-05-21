@@ -32,7 +32,7 @@ jobs:
 
       - name: Make changes
         run: |
-          git config -- global user.email "ishanikasingh041@gmail.com"
+          git config --global user.email "ishanikasingh041@gmail.com"
           git config --global username "Ishanika041"
 
           echo "New changes" >> changes.txt
